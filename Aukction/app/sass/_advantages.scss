@@ -1,0 +1,41 @@
+.advantages{
+  background-color: #ede9e6;
+  .advent-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .advent{
+      display: flex;
+      flex-direction: column;
+      width: 263px;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      .black-box{
+        background-color: #000;
+        height: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .white-box{
+        background-color: #fff;
+        padding: 20px 15px;
+        flex-grow: 1;
+        text-align: center;
+        color: #000000;
+        font-family: Gilroy-Bold;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .advantages .advent-box {
+    justify-content: space-around;
+
+  }
+}

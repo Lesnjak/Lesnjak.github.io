@@ -1,0 +1,341 @@
+.father {
+  //min-width: 1922px;
+}
+
+header {
+  display: grid;
+  //grid-template-columns: 300px 360px 360px 1fr;
+  //grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: minmax(250px, 320px) 360px 360px 1fr;
+  grid-template-rows: minmax(100px, auto) minmax(300px, auto) minmax(300px, auto) 1fr;
+  grid-template-areas: "logo menu menu menu" "logo square square picture" "logo square square picture" "logo little1 little2 picture";
+  border: 1px solid #c7c7c7;
+
+  & .logo-box {
+    grid-area: logo;
+    border: 1px solid #c7c7c7;
+  }
+  & .menu-box {
+    grid-area: menu;
+    border: 1px solid #c7c7c7;
+
+  }
+  & .square-box {
+    grid-area: square;
+    border: 1px solid #c7c7c7;
+  }
+  & .picture-box {
+    grid-area: picture;
+    border: 1px solid #c7c7c7;
+  }
+  & .little1 {
+    grid-area: little1;
+    border: 1px solid #c7c7c7;
+  }
+  & .little2 {
+    grid-area: little2;
+    border: 1px solid #c7c7c7;
+  }
+}
+
+header {
+  .logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px 15px;
+    text-align: center;
+    align-items: center;
+    //grid-area: logo;
+    //grid-column-start: 1;
+    //grid-row-start: 1;
+    //grid-row-end: -1;
+    .logo {
+      max-width: 160px;
+      img {
+        width: 100%;
+      }
+    }
+
+    P {
+      color: $black;
+      font-family: Gilroy;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+  .menu-box {
+    display: flex;
+    padding: 0 60px;
+    position: relative;
+    align-items: center;
+
+    span {
+      display: flex;
+      align-items: center;
+      color: $black;
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .menu-item {
+      display: flex;
+      height: 100%;
+      a {
+        color: $black;
+        font-family: Gilroy-med;
+        font-size: 20px;
+        font-weight: 500;
+        transition: 0.3s;
+        display: flex;
+        position: relative;
+        padding: 32px 20px;
+        z-index: 100;
+        align-items: center;
+
+        &:hover {
+          background-color: $black;
+          color: #fff;
+        }
+      }
+    }
+
+    a:nth-child(1):hover ~ .grey-box {
+      left: 50px;
+      width: 190px;
+    }
+    a:nth-child(2):hover ~ .grey-box {
+      left: 240px;
+      width: 100px;
+    }
+    a:nth-child(3):hover ~ .grey-box {
+      left: 340px;
+      width: 180px;
+    }
+    a:nth-child(4):hover ~ .grey-box {
+      left: 520px;
+      width: 130px;
+    }
+
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  a {
+    color: $black;
+    width: 42px;
+    height: 42px;
+    border: 2px solid $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 7px;
+    transition: 0.3s;
+    font-size: 22px;
+    &:hover {
+      background-color: $black;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      color: #fff;
+    }
+
+  }
+}
+
+.square-box {
+  display: flex;
+  border-left: none;
+  border-top: none;
+  justify-content: center;
+  align-items: center;
+  //grid-column-start:2 ;
+  //grid-column-end: 5 ;
+  //grid-row-start: 2;
+  //grid-row-end: 3;
+
+  .inner-suare {
+    max-width: 480px;
+    margin: 30px;
+
+    h1 {
+      line-height: 68px;
+      margin-bottom: 20px;
+    }
+    .tree-box {
+      margin-bottom: 20px;
+      .city-box {
+        padding: 0 25px 0 20px;
+      }
+    }
+    .square-text {
+      margin-bottom: 20px;
+    }
+
+  }
+  .square-text {
+    max-width: 440px;
+  }
+
+}
+
+.picture-box {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-left: none;
+  //grid-column-start: 5;
+  //grid-column-end: -1;
+  //grid-row-start:2;
+  //grid-row-end:-1;
+
+}
+.button-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.tree-box {
+  display: flex;
+  align-items: center;
+  .city-box {
+    color: #231e1e;
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Gilroy-med;
+    text-transform: uppercase;
+  }
+}
+
+.little {
+  padding: 30px 60px;
+  text-align: center;
+  .text-box {
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+}
+
+.little1 {
+  //grid-column-start: 2;
+  //grid-column-end:4;
+  //grid-row-start:3;
+  //grid-row-end: -1;
+
+}
+
+.little2 {
+  //grid-column-start: 4;
+  //grid-column-end:5;
+  //grid-row-start:3;
+  //grid-row-end: -1;
+}
+
+@media (max-width: 1200px) {
+  header {
+    display: grid;
+    //grid-template-columns: 300px 360px 360px 1fr;
+    //grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: minmax(320px, 320px) 1fr;
+    grid-template-rows: minmax(100px, auto) minmax(220px, auto) minmax(220px, auto) 1fr;
+    grid-template-areas: "logo menu menu menu" "logo square square square" "little1 square square square" "little2 picture picture picture ";
+  }
+  header .menu-box {
+    padding: 0 30px;
+  }
+  .little {
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+header .menu-box span {
+  display: none;
+}
+
+@media (max-width: 993px) {
+  header .menu-box span {
+    display: flex;
+  }
+  header .menu-box {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .menu-box .menu-item {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 100px;
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    right: 0;
+    a {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .social {
+    width: 100%;
+    a {
+      margin: 0 4px;
+      width: 35px;
+      height: 35px;
+      font-size: 20px;
+    }
+  }
+  header {
+    display: grid;
+    grid-template-columns: minmax(130px, 220px) minmax(120px, 220px) minmax(130px, 220px) minmax(110px, 220px);
+    grid-template-rows: minmax(100px, auto) minmax(480px, auto) minmax(480px, auto) 1fr;
+    grid-template-areas: "logo menu menu menu" "logo picture picture picture" "logo square square square" "little1 little1 little2 little2 ";
+  }
+}
+
+@media (max-width: 640px) {
+  .social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+      margin-bottom: 10px;
+    }
+  }
+  .little {
+    padding: 16px;
+  }
+  .square-box .inner-suare h1 {
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+}
+
+//@media (max-width: 1200px) {
+//
+//}
+//@media (max-width: 993px) {
+//
+//}
+//@media (max-width: 768px) {
+//
+//}
+//@media (max-width: 480px) {
+//
+//}

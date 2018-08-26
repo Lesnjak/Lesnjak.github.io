@@ -1,0 +1,145 @@
+.footer{
+  background-color: $blue;
+  color: #fff;
+  padding: 40px 0;
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    .scroll-box{
+      width: 75%;
+      line-height: 23px;
+      font-size: 16px;
+      font-family: Robot-reg, sans-serif;
+      .scroll-title{
+        font-family:Robot-bol, sans-serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .scroll-container{
+        height: 185px;
+        overflow: auto;
+        margin-top: 5px;
+        .scroll-text{
+          width: 95%;
+          overflow: hidden;
+          color: #f5f5f5;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+
+        }
+      }
+    }
+    ul{
+      display: inline;
+      margin-left: 30px;
+      li{
+        list-style: none;
+        margin-bottom: 19px;
+        a{
+          color: #fff;
+          font-size: 16px;
+          font-family:Robot-reg, sans-serif;
+          text-transform: uppercase;
+          transition: 0.3s;
+          &:hover{
+            color: $blue;
+          }
+
+
+        }
+      }
+    }
+    .social-box{
+      p{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-family:Robot-bol, sans-serif;
+      }
+      .social{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        a{
+          display: flex;
+          width: 34px;
+          height: 34px;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          align-items: center;
+          justify-content: center;
+          transition: 0.3s;
+
+          i{
+            font-size: 14px;
+            color: #fff;
+            transition:0.3s ;
+          }
+          &:hover{
+            color: $blue;
+            border: 1px solid red;
+            i{
+              color: red;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  .brand{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    a{
+      color: #fff;
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .footer {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    .footer-box {
+
+      .social-box {
+
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .footer .footer-box .scroll-box {
+    width: 65%;
+    line-height: 23px;
+    font-size: 16px;
+    font-family: Robot-reg,sans-serif;
+  }
+}
+@media (max-width: 768px) {
+.footer{
+  padding-left: 0;
+  padding-top: 25px;
+  padding-right: 0;
+
+
+}
+  .footer .footer-box .scroll-box {
+    width: 100%;
+    line-height: 23px;
+    font-size: 16px;
+    font-family: Robot-reg,sans-serif;
+    margin-bottom: 20px;
+  }
+  .footer .footer-box {
+flex-wrap: wrap;
+  }
+  .footer .footer-box ul {
+    display: inline;
+    margin-left: 0;
+  }
+}

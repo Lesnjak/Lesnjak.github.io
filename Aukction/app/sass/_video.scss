@@ -1,0 +1,125 @@
+.footer {
+  .footer-p{
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .logo-box {
+ a{
+   color: #231e1e;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-weight: 300;
+   transition: 0.3s;
+   &:hover{
+     text-shadow: 0 0 5px #000;
+   }
+ }
+    .logo {
+
+      img {
+
+      }
+    }
+
+    p {
+
+    }
+  }
+
+  .menu-box {
+justify-content: center;
+    h6 {
+
+    }
+  }
+
+  .square-box {
+
+    .inner-suare {
+
+      .footer-p {
+        margin-bottom: 30px;
+      }
+
+      .tree-box {
+        max-width: 230px;
+        &:nth-child(odd){
+          margin-bottom: 50px;
+        }
+        .im-box {
+
+          img {
+            margin-right: 15px;
+
+          }
+        }
+
+        .mounth-box {
+
+          p {
+            font-family: Gilroy-med;
+            font-size: 18px;
+            font-weight: 500;
+          }
+          a {
+            font-family: Gilroy-med;
+            font-size: 18px;
+            font-weight: 500;
+            display: block;
+            color: $black;
+            margin-bottom: 2px;
+            transition: 0.3s;
+            &:hover{
+              text-shadow: 0 0 5px #000;
+            }
+
+
+          }
+        }
+      }
+
+      .button-box {
+
+        .button {
+
+        }
+      }
+    }
+  }
+
+  .picture-box {
+
+  }
+
+  .little {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 10px;
+    .footer-p {
+
+    }
+
+    .social {
+
+      a {
+
+        .fa {
+
+        }
+      }
+    }
+  }
+  .little2{
+    a{
+      color: $black;
+      transition: 0.3s;
+      &:hover{
+        text-shadow: 0 0 5px #000;
+      }
+    }
+  }
+}

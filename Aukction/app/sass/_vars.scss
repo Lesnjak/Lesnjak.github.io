@@ -1,0 +1,207 @@
+$black:#231e1e;
+
+
+body{
+  color: $black;
+  font-size:20px;
+  font-family: Gilroy;
+  font-weight: 400;
+
+}
+h1{
+  color: #231e1e;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 50px;
+}
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Gilroy-Extra Bold;
+}
+h3{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Gilroy;
+}
+h4{
+
+  font-family: Gilroy;
+  font-size: 36px;
+  font-weight: 700;
+
+
+}
+h5{
+
+  font-family: Gilroy-Bold;
+  font-size: 30px;
+  font-weight: 700;
+
+
+}
+h6{
+
+  font-family: Gilroy-Bold;
+  font-size: 36px;
+  text-align: center;
+
+}
+
+
+
+.button{
+  height: 40px;
+  border: 1px solid #231e1e;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 18px;
+  color: #fff;
+  line-height: 37px;
+  width: 225px;
+  font-family: Gilroy;
+  font-weight: 700;
+  display: inline-block;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: $black;
+  margin: 10px auto;
+  outline: none;
+  &:hover{
+    background-color: #fff;
+    color: #000;
+  }
+}
+.button-white{
+  color: $black;
+  font-weight: 700;
+  background-color: #ffffff;
+  transition: 0.3s;
+  box-shadow: none;
+
+
+  &:hover{
+    background-color: $black;
+   color: #fff;
+  }
+}
+.button-black{
+  color: #000000;
+  background-color: #fff;
+  transition: 0.3s;
+  border: 1px solid #000;
+  padding: 0 35px;
+  &:hover{
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+section{
+  padding: 70px 0;
+}
+//////////button art ////////////////
+
+.wrapper-menu {
+  position: absolute;
+  display: none;
+
+  top: 30px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+  z-index: 5;
+  &.open {
+    transform: rotate(-45deg);
+  }
+}
+
+.line-menu {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  height: 6px;
+  &.half {
+    width: 50%;
+  }
+  &.start {
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    transform-origin: right;
+  }
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
+}
+
+@media (max-width: 993px) {
+  section{
+    padding: 40px 0;
+  }
+
+}
+///////////////////////button///////////////////
+.menu_button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+.menu_button,
+.menu_button span {
+  display: inline-block;
+  box-sizing: border-box;
+  transition: all .4s;
+}
+.menu_button {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  margin-left: 10px;
+
+}
+.menu_button_line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height:4px;
+  background: $black;
+  border-radius: 0.2rem;
+}
+.menu_button .menu_button_line.top {
+  top: 0;
+}
+.menu_button .menu_button_line.mid {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menu_button .menu_button_line.botm {
+  bottom: 0;
+}
+.menu_button.on_menu .menu_button_line {
+  background: $black;
+}
+.menu_button.on_menu .menu_button_line.top {
+  transform: translateY(13px) rotate(-45deg);
+}
+.menu_button.on_menu .menu_button_line.mid {
+  opacity: 0;
+}
+.menu_button.on_menu .menu_button_line.botm {
+  transform: translateY(-13px) rotate(45deg);
+}

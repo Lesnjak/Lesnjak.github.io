@@ -1,0 +1,193 @@
+
+
+////////////////////////////////////////
+.thank-you{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  outline: none;
+  background-color: rgba(0,0,0, 0.7);
+  z-index: 100;
+  animation: zoom1 0.3s;
+  display: none;
+
+  .thank-you-window{
+    max-width: 940px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    animation: zoom 0.3s;
+    display: flex;
+.right1{
+  padding: 50px;
+  background-color: #fff;
+}
+    .left1{
+      img{
+        height: 100%;
+      }
+    }
+    .button-crest{
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 22px;
+      height: 22px;
+      cursor: pointer;
+      img{
+        width: 100%;
+      }
+    }
+    h6{
+      text-align: center;
+      color: $black;
+      font-family: Gilroy-Bold;
+      margin-bottom: 30px;
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase;
+      /* Text style for "О, формлен" */
+      letter-spacing: 0.3px;
+    }
+    .inner-pop{
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.28);
+      //border-radius: 10px;
+      background-color: #ffffff;
+      padding: 100px 50px;
+      p{
+        color: #000000;
+        font-family: Gilroy;
+        font-size: 30px;
+        font-weight: 500;
+        /* Text style for "Б, лагодар" */
+        letter-spacing: 0.3px;
+      }
+    }
+    .inner-pop-video{
+      overflow: hidden;
+      iframe{
+        width: 560px;
+        height: 315px;
+      }
+
+    }
+    form{
+
+      p{
+        color: #000000;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        /* Text style for "L, orem ip" */
+        letter-spacing: 0.2px;
+        text-align: center;
+        margin-bottom: 12px;
+      }
+      input[type='text']{
+        border-radius: 9px;
+        border: 1px solid #c6c6c6;
+        background-color: #f8f7f7;
+        padding: 0 30px;
+        height: 50px;
+        width: 100%;
+        margin-bottom: 12px;
+        outline: none;
+      }
+      textarea{
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 150px;
+        max-height: 180px;
+        border-radius: 9px;
+        border: 1px solid #c6c6c6;
+        background-color: #f8f7f7;
+        padding: 15px 30px;
+        margin-bottom: 12px;
+        outline: none;
+      }
+      input[type="submit"]{
+        background-color: #000;
+        color: #fff;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50% );
+        margin-left: 0;
+
+        &:hover{
+          background-color: #fff;
+          color: #000;
+        }
+      }
+    }
+
+  }
+  .tho{
+    max-width: 400px;
+  }
+}
+.thank-you-video{
+  .thank-you-window{
+    max-width: 560px;
+  }
+}
+
+
+@keyframes zoom {
+  0%{
+    transform: scale(0.4);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@keyframes zoom1 {
+  0%{
+    background-color: rgba(0,0,0, 0);
+  }
+  100%{
+    background-color: rgba(0,0,0, 0.7);
+  }
+}
+@media (max-width: 768px) {
+  .thank-you .thank-you-window .inner-pop-video iframe {
+    width: 90vw;
+    height: 50vw;
+  }
+  .thank-you .thank-you-window p {
+
+
+  }
+  .thank-you .thank-you-window{
+    margin: 10px 10px;
+    max-width: 100%;
+    form{
+      padding:30px 15px;
+    }
+
+
+  }
+}
+@media (max-width: 1000px) {
+  .left1{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .thank-you .thank-you-window p {
+
+
+  }
+  .thank-you .thank-you-window{
+    padding: 50px 10px;
+
+    form{
+      padding:30px 15px;
+    }
+
+  }
+}
+

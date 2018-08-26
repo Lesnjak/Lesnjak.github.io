@@ -1,0 +1,589 @@
+
+.header-section {
+  height: 100vh;
+  min-height: 400px;
+  overflow: hidden;
+  background-image: url(../img/bg-video1.png);
+  background-size:100%;
+  background-position: 0 -50px;
+  background-repeat: no-repeat;
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.filter {
+  overflow: hidden;
+  background: rgba(0, 0, 0, .7);
+  height: 100%;
+  width: 100%;
+
+  .header {
+    color: #fff;
+    font-family: "Gilroy Regular", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+
+    .nameBlock {
+      #holder {
+        position: relative;
+        margin: auto;
+        height: 85px;
+
+        #slogans {
+          width: 100%;
+          height: 100%;
+
+          p {
+            position: relative;
+            font-weight: 100;
+            left: 0;
+            right: 0;
+            margin: 30px auto;
+            width: auto;
+          }
+        }
+
+        p.slogan strong {
+          font-weight: 100;
+          display: block;
+          position: relative;
+          opacity: 0;
+        }
+
+      }
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      margin: 25px auto 0;
+      .button-tr {
+        margin-right: 20px;
+      }
+
+      .lineBox {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+        height: 188px;
+        padding-top: 15px;
+        box-sizing: border-box;
+        border-bottom: none;
+
+        .lineAnimate {
+          &:before {
+            position: absolute;
+            content: '';
+            width: 50%;
+            top: -1px;
+            left: 49.86%;
+            height: 8px;
+            background-color: white;
+            bottom: 0;
+
+            animation: topLine 2s ease-in-out;
+          }
+          &:after {
+            position: absolute;
+            content: '';
+            width: 50%;
+            right: 49.86%;
+            top: -1px;
+            height: 8px;
+            background-color: white;
+            bottom: 0;
+            animation: topLine 2s ease-in-out;
+          }
+        }
+
+        .lineAnimate2 {
+          &:before {
+            position: absolute;
+            content: '';
+            width: 8px;
+            height: 100%;
+            background-color: white;
+            top: 0;
+            left: 0;
+            animation-name: leftRiteLine;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+
+          }
+          &:after {
+            transform: rotate(180deg);
+            position: absolute;
+            content: '';
+            width: 8px;
+            height: 100%;
+            background-color: white;
+            top: 0;
+            right: 0;
+
+            animation-name: leftRiteLine;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+
+          }
+        }
+        .lineAnimate1 {
+          &:before {
+            position: absolute;
+            content: '';
+            width: 20%;
+            height: 8px;
+            background-color: white;
+            bottom: 0;
+            left: 0;
+            animation-name: bottomLine;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+          }
+          &:after {
+            position: absolute;
+            content: '';
+            width: 20%;
+            height: 8px;
+            background-color: white;
+            bottom: 0;
+            right: 0;
+            animation-name: bottomLine;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+          }
+        }
+
+        p {
+          top: 0;
+          margin-top: -23px;
+          font-size: 48px;
+        }
+
+      }
+
+      h1 {
+        margin: 0;
+        text-transform: uppercase;
+        font-family: "Gilroy Regular", sans-serif;
+        font-size: 100px;
+        letter-spacing: 5px;
+        position: relative;
+        margin-top: 10px;
+        &:after {
+          position: absolute;
+          content: '';
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          bottom: 30px;
+
+          background-color: $red;
+          animation-name: redTip;
+          animation-duration: 3s;
+          animation-timing-function: ease-in-out;
+
+        }
+      }
+      p {
+        font-size: 23px;
+
+      }
+
+      .itemBox {
+        margin-top: 18vh;
+        span {
+          margin-right: 120px;
+          position: relative;
+          &:last-child {
+            margin-right: 0;
+          }
+          &:before {
+            position: absolute;
+            content: '';
+            background-image: url("../img/brain.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 71px;
+            height: 68px;
+            top: -80px;
+            left: 5px;
+
+          }
+          &:nth-child(2):before {
+            background-image: url("../img/effective.png");
+            width: 65px;
+            height: 69px;
+            left: 30%;
+          }
+          &:nth-child(3):before {
+            background-image: url("../img/design.png");
+            width: 70px;
+            height: 67px;
+
+          }
+        }
+      }
+      .popup-btn {
+        &:hover {
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+  @keyframes topLine {
+    0% {
+      width: 0;
+    }
+    30% {
+      width: 0;
+    }
+    100% {
+      width: 50%;
+
+    }
+  }
+  @keyframes leftRiteLine {
+    0% {
+      height: 0;
+    }
+    30% {
+      height: 0;
+    }
+    100% {
+
+      height: 100%;
+
+    }
+  }
+  @keyframes bottomLine {
+    0% {
+      width: 0;
+    }
+    30% {
+      width: 0;
+    }
+    100% {
+      width: 20%;
+
+    }
+  }
+  @keyframes redTip {
+    0% {
+      background-color: transparent;
+    }
+    65% {
+      background-color: transparent;
+    }
+    66% {
+
+    }
+    96% {
+      background-color: $red;
+
+    }
+    100% {
+
+    }
+  }
+
+}
+
+@media (max-width: 993px) {
+  .filter {
+    .header {
+      font-size: 18px;
+      .nameBlock {
+
+        .button-tr {
+          margin-right: 20px;
+        }
+        .lineBox {
+          width: 550px;
+          height: 158px;
+          p {
+            margin-top: -10px;
+            font-size: 28px;
+          }
+        }
+        h1 {
+          font-size: 80px;
+        }
+        p {
+          font-size: 18px;
+        }
+        .itemBox {
+          margin-top: 80px;
+          span {
+            margin-right: 70px;
+            position: relative;
+            &:last-child {
+              margin-right: 0;
+            }
+            &:before {
+              position: absolute;
+              content: '';
+              background-image: url("../img/brain.png");
+
+              width: 51px;
+              height: 48px;
+              top: -60px;
+              left: 5px;
+
+            }
+            &:nth-child(2):before {
+              width: 45px;
+              height: 49px;
+
+            }
+            &:nth-child(3):before {
+              width: 50px;
+              height: 47px;
+
+            }
+          }
+        }
+
+      }
+      .buttonStock {
+        width: 220px;
+        font-size: 20px;
+        height: 40px;
+      }
+      .button-tr {
+        &:before {
+          background-size: 80%;
+
+          left: 10px;
+
+        }
+
+      }
+
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+  .header-section {
+
+    video {
+      display: none;
+    }
+  }
+  .filter {
+    background-image: url("../img/bg-video.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .header {
+      font-size: 18px;
+      .nameBlock {
+
+        .button-tr {
+          margin-right: 20px;
+        }
+        .lineBox {
+          width: 350px;
+          height: 110px;
+          p {
+            margin-top: 0;
+            font-size: 20px;
+          }
+        }
+        h1 {
+          margin-top: 5px;
+          font-size: 50px;
+          &:after {
+            width: 10px;
+            height: 10px;
+            bottom: 11px;
+
+          }
+        }
+        p {
+          font-size: 12px;
+        }
+        .itemBox {
+          margin-top: 80px;
+          position: relative;
+          span {
+            margin-right: 50px;
+            font-size: 15px;
+            &:last-child {
+              margin-right: 0;
+            }
+            &:before {
+              position: absolute;
+              content: '';
+              background-image: url("../img/brain.png");
+
+              width: 41px;
+              height: 38px;
+              top: -60px;
+              left: 5px;
+
+            }
+            &:nth-child(2):before {
+              width: 35px;
+              height: 39px;
+
+            }
+            &:nth-child(3):before {
+              width: 40px;
+              height: 37px;
+
+            }
+          }
+        }
+
+      }
+      .buttonStock {
+        width: 160px;
+        font-size: 15px;
+        height: 45px;
+      }
+      .button-tr {
+        &:before {
+          background-size: 60%;
+
+          left: 5px;
+
+        }
+
+      }
+
+    }
+
+  }
+}
+
+/////////////////////////////////////scroll///////////////////////////////
+
+$line-height: 60px;
+$line-height-abs: -60px;
+
+.c-scrolldown {
+  width: 25px;
+  height: $line-height;
+  position: absolute;
+
+  bottom: -120px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  .c-line {
+    position: relative;
+    margin: auto;
+    width: 2px;
+    height: 100%;
+    display: block;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 50%);
+    background-position: 0 $line-height-abs;
+    background-size: 100% 200%;
+    animation: scrolldown 5s linear forwards infinite;
+    &:before {
+      position: absolute;
+      content: '';
+      width: 12px;
+      height: 2px;
+      background-color: white;
+      bottom: 4px;
+      z-index: 100;
+      right: -1px;
+      transform: rotate(45deg);
+      animation: scrolldownArrow 5s linear forwards infinite;
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      width: 12px;
+      height: 2px;
+      background-color: white;
+      bottom: 4px;
+      left: -1px;
+      z-index: 100;
+      transform: rotate(-45deg);
+      animation: scrolldownArrow 5s linear forwards infinite;
+    }
+  }
+}
+
+@keyframes scrolldown {
+  0% {
+    background-position: 0 $line-height-abs;
+    opacity: 0.5;
+  }
+  75% {
+    background-position: 0 0;
+    opacity: 1;
+  }
+  100% {
+    background-position: 0 $line-height;
+  }
+}
+
+@keyframes scrolldownArrow {
+  0% {
+    bottom: 60px;
+    opacity: 0.5;
+  }
+  40% {
+    bottom: 4px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 4px;
+
+  }
+}
+
+@media (max-width: 1400px) {
+  .c-scrolldown {
+    bottom: -80px;
+
+  }
+}
+
+@media (max-width: 500px) {
+
+  .nameBlock .button-tr {
+    display: none;
+  }
+  .filter .header .nameBlock button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    font-size: 20px;
+  }
+  .filter .header .nameBlock button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+}
+
+// codepen profile logo
+
+body .buttonStockScroll:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+
+

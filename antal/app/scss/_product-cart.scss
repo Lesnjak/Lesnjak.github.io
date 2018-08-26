@@ -1,0 +1,252 @@
+.product-cart-title{
+  &:before{
+    background-color: rgba(0,0,0,0.5);
+  }
+  border-bottom:none;
+  .breadcrumbs-origin{
+    padding-bottom: 0;
+  }
+  .title-box{
+    max-width: 800px;
+    h3{
+      line-height:70px;
+    }
+    p{
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      max-width: 550px;
+      margin:5px auto 30px;
+    }
+  }
+}
+.slider-section{
+  padding:30px 0  50px;
+  background-color: #fff;
+}
+
+  .prev, .next{
+    width: 50px;
+    height: 50px;
+    display: block;
+    top: 49%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(72,93,104,0.6);
+    outline: none;
+    position: absolute;
+    transition: 0.3s;
+    transform: translateY(-50%);
+
+
+
+  }
+  .prev{
+    right: -100px;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid #FFF;
+      border-top: 2px solid #FFF;
+      left: 18px;
+      top: 20px;
+      transform: rotate(45deg);
+      transition: 0.3s;
+    }
+    &:hover{
+      background-color: $blue;
+      &:before{
+        border-right: 2px solid #fff;
+        border-top: 2px solid #fff;
+      }
+    }
+  }
+  .next{
+    left: -100px;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-left: 2px solid #FFF;
+      border-top: 2px solid #FFF;
+      right: 18px;
+      top: 20px;
+      transform: rotate(-45deg);
+      transition: 0.3s;
+    }
+    &:hover{
+      background-color: $blue;
+      &:before{
+        border-left: 2px solid #fff;
+        border-top: 2px solid #fff;
+      }
+    }
+  }
+
+.blue{
+  max-width: 960px;
+  margin: auto;
+  .slider-nav{
+    .draggable{
+      padding: 0!important;
+    }
+    .slick-current{
+      .picture{
+        &:before{
+          background-color: rgba(72,93,104,0.6);
+        }
+      }
+    }
+  }
+  .picture{
+    cursor: pointer;
+    margin:7px 10px;
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(72,93,104,0);
+      transition: 0.3s;
+
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+.product-information{
+  background-color: #f0f0f0;
+  h4{
+    color: #111111;
+    margin-bottom: 25px;
+  }
+  p{
+    color: #111111;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 744px;
+    margin: auto;
+
+  }
+}
+.product-form{
+  h4{
+    margin-bottom: 30px;
+  }
+  p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  form{
+    padding:0 40px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .in-box{
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      max-width: 360px;
+      margin-right: 30px;
+      label{
+        padding-left: 20px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        padding-bottom: 5px;
+      }
+      input{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid #e6e6e6;
+        background-color: #ffffff;
+        padding: 0 20px;
+        outline: none;
+        color: #000;
+      }
+
+    }
+    .button-block{
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+}
+@media (max-width: 1200px) {
+  .prev{
+    right: 50px;
+    z-index: 100;
+
+  }
+  .next{
+    left: 50px;
+    z-index: 100;
+  }
+}
+@media (max-width: 993px) {
+  .product-form form .in-box {
+    margin-right: 0;
+    margin-bottom: 20px;
+    &:first-child{
+      margin-right: 20px;
+    }
+  }
+  .product-form form .button-block {
+    margin-top: 30px;
+
+  }
+
+}
+@media (max-width: 768px) {
+  .product-form form{
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-form form .in-box {
+    input{
+
+    }
+    margin-right: 0;
+    margin-bottom: 20px;
+    order: 0;
+    width: 100%;
+    &:first-child{
+      margin-right: 0;
+    }
+  }
+
+
+}
+@media (max-width: 480px) {
+  .slider-nav{
+    display: none;
+  }
+  .blue .picture {
+    margin: 0;
+  }
+  .product-form form .button-block {
+    margin-top: 20px;
+    .button-main{
+      padding: 0 30px;
+    }
+
+  }
+}

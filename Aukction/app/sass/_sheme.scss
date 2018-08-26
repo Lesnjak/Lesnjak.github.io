@@ -1,0 +1,47 @@
+.better {
+  background-color: #fafafa;
+  h6 {
+    margin-bottom: 20px;
+  }
+
+  .container {
+
+    .row {
+
+      .better-inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -25px;
+        justify-content: center;
+        margin: auto;
+        .in-box {
+          max-width: 309px;
+          min-height: 309px;
+          padding: 45px 20px;
+          text-align: center;
+          border: 2px solid #c7c7c7;
+          background-color: #ffffff;
+          margin: 25px;
+
+          img {
+            margin-bottom: 15px;
+          }
+
+          .top-p{
+            font-family: Gilroy-Bold;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            }
+          .bottom-p {
+            font-family: Gilroy;
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}

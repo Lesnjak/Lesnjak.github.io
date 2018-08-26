@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>art</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=0.4">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link rel="apple-touch-icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
+    <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.background-video.css">
+    <link rel="stylesheet" href="libs/fullpage.js/dist/jquery.fullpage.css">
+    <link rel="stylesheet" href="libs/slick-master/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick-master/slick/slick-theme.css">
+    <link rel="stylesheet" href="libs/mmenu/mmenu.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="slider">
+        <div class="slider-big" >
+            <div class="big">
+                <div><div class="sli" style="background-image: url(img/big1.png);"></div></div>
+                <div><div class="sli" style="background-image: url(img/big2.5.jpg);"></div></div>
+                <div><div class="sli" style="background-image: url(img/big2.jpg);"></div></div>
+                <div><div class="sli" style="background-image: url(img/big4.jpg);"></div></div>
+                <div><div class="sli" style="background-image: url(img/big5.jpg);"></div></div>
+                <div><div class="sli" style="background-image: url(img/big6.jpg);"></div></div>
+
+
+            </div>
+        </div>
+        <div class="slider-small" >
+            <div class="small">
+                <div><div class="sli" style="background-image: url(img/small1.png);"></div></div>
+                <div><div class="sli" style="background-image: url(img/small2.png);"></div></div>
+                <div><div class="sli" style="background-image: url(img/small3.png);"></div></div>
+                <div><div class="sli" style="background-image: url(img/small4.png);"></div></div>
+                <div><div class="sli" style="background-image: url(img/small5.png);"></div></div>
+                <div><div class="sli" style="background-image: url(img/small6.png);"></div></div>
+            </div>
+        </div>
+        <div class="menu-box">
+             <h2>меню</h2>
+            <ul>
+            <li class="li"><a href="#service">услуги</a></li>
+            <li class="li"><a href="#advantages">преимущества</a></li>
+            <li class="li"><a href="#scheme">схема нашей работы</a></li>
+            <li class="li"><a href="#video-voices">видеоотзывы</a></li>
+            <li class="li"><a href="#statistic">наша статистика</a></li>
+            <li class="li"><a href="#about">О нас</a></li>
+            </ul>
+            <div class="social">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="center-box">
+            <div class="logo-box">
+                <div class="img-box">
+                    <img src="img/logo.png" alt="image">
+                </div>
+                <p>студия живописи</p>
+                <a href="tel:+380930318753"><img src="img/phone.png" alt=""> +380930318753</a>
+            </div>
+            <div class="button-box">
+                <a class="button" href="#" data-video="https://www.youtube.com/embed/mUYf2yu78Ts"> <span></span>Смотреть видео</a>
+                <a class="button button-white" href="#" data-form> Оставить заявку</a>
+            </div>
+        </div>
+        <div class="wrapper-menu">
+            <div class="line-menu half start"></div>
+            <div class="line-menu"></div>
+            <div class="line-menu half end"></div>
+        </div>
+    </div>
+</header>
+<section class="service" id="service">
+    <h3>Услуги</h3>
+    <div class="container">
+        <div class="row">
+            <div class="tabs-box">
+                <a href="#" class="active-tab">Роспись стен</a>
+                <a href="#">Роспись предметов интерьера </a>
+                <a href="#">лепнина</a>
+                <a href="#">Портрет по фото</a>
+                <a href="#">картины на заказ</a>
+            </div>
+            <div class="text-center">
+            <div class="item-box active-box ">
+            <div class="item" >
+                <div class="item-inner-box" data-photo style="background-image: url(img/serv1.png);" >
+                    <div class="item-inner" >
+                        <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                        <div class="bottom-box">
+                            <p>Роспись в детской, 45 м кв.,
+                                2015г
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="item" >
+                    <div class="item-inner-box" data-photo style="background-image: url(img/serv2.png);">
+                        <div class="item-inner" >
+                            <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                            <div class="bottom-box">
+                                <p>Роспись в детской, 45 м кв.,
+                                    2015г
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-inner-box" data-photo style="background-image: url(img/serv3.png);">
+                        <div class="item-inner" >
+                            <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                            <div class="bottom-box">
+                                <p>Роспись в детской, 45 м кв.,
+                                    2015г
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-inner-box" data-photo style="background-image: url(img/serv4.png);">
+                        <div class="item-inner" >
+                            <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                            <div class="bottom-box">
+                                <p>Роспись в детской, 45 м кв.,
+                                    2015г
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-inner-box" data-photo  style="background-image: url(img/serv5.png);">
+                        <div class="item-inner" >
+                            <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                            <div class="bottom-box">
+                                <p>Роспись в детской, 45 м кв.,
+                                    2015г
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-inner-box" data-photo style="background-image: url(img/serv6.png);">
+                        <div class="item-inner" >
+                            <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                            <div class="bottom-box">
+                                <p>Роспись в детской, 45 м кв.,
+                                    2015г
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv1.png);" >
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv2.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv3.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="item" >
+                    <div class="item-inner-box" data-photo style="background-image: url(img/serv4.png);">
+                        <div class="item-inner" >
+                            <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                            <div class="bottom-box">
+                                <p>Роспись в детской, 45 м кв.,
+                                    2015г
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="item-inner-box" data-photo  style="background-image: url(img/serv5.png);">
+                        <div class="item-inner" >
+                            <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                            <div class="bottom-box">
+                                <p>Роспись в детской, 45 м кв.,
+                                    2015г
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div class="item-box">
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv1.png);" >
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv2.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv3.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="item-box">
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv1.png);" >
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv2.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv3.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="item-box">
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv1.png);" >
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv2.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="item-inner-box" data-photo style="background-image: url(img/serv3.png);">
+                            <div class="item-inner" >
+                                <div class="top-box"><img src="img/zoom.png" alt="image"></div>
+                                <div class="bottom-box">
+                                    <p>Роспись в детской, 45 м кв.,
+                                        2015г
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-center">
+                <a class="button button-black" href="#">Показать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="advantages" id="advantages">
+    <h3>преимущества</h3>
+    <div class="container">
+        <div class="row">
+            <div class="advent-box">
+                <div class="advent">
+                    <div class="black-box">
+                        <img src="img/advent1.png" alt="">
+                    </div>
+                    <div class="white-box">
+                        <p>100% соответствие
+                            утверждённым эскизам </p>
+                    </div>
+                </div>
+                <div class="advent">
+                    <div class="black-box">
+                        <img src="img/advent2.png" alt="">
+                    </div>
+                    <div class="white-box">
+                        <p>С учётом всех пожеланий
+                            и сроков  </p>
+                    </div>
+                </div>
+                <div class="advent">
+                    <div class="black-box">
+                        <img src="img/advent3.png" alt="">
+                    </div>
+                    <div class="white-box">
+                        <p>Выполняем заказ в 2-3 раза
+                            быстрее благодаря
+                            командной работе   </p>
+                    </div>
+                </div>
+                <div class="advent">
+                    <div class="black-box">
+                        <img src="img/advent4.png" alt="">
+                    </div>
+                    <div class="white-box">
+                        <p>Долгосрочная гарантия
+                            благодаря профессиональной
+                            работе и материалам</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="scheme" id="scheme" style="background-image: url(img/shemebg.png);">
+    <h3>схема нашей работы</h3>
+    <div class="container">
+        <div class="row">
+    <div class="sheme-box">
+        <div class="sheme">
+            <div class="free"><p>бесплатно!</p></div>
+            <div class="right-img"><img src="img/circl1.png" alt="image"></div>
+            <div class="num"><span>01</span></div>
+            <div class="other-text">Приедем к Вам для замера и
+                консультации</div>
+        </div>
+        <div class="sheme">
+            <div class="free"><p>бесплатно!</p></div>
+            <div class="right-img"><img src="img/sheme2.png" alt="image"></div>
+            <div class="num"><span>02</span></div>
+            <div class="other-text">Эскиз в течении 1 дня</div>
+        </div>
+        <div class="sheme">
+            <div class="right-img"><img src="img/sheme3.png" alt="image"></div>
+            <div class="num"><span>03</span></div>
+            <div class="other-text">Предоставляем договор с
+                гарантией качества</div>
+        </div>
+        <div class="sheme">
+
+            <div class="right-img"><img src="img/sheme4.png" alt="image"></div>
+            <div class="num"><span>04</span></div>
+            <div class="other-text">Выполним подготовку
+                поверхности</div>
+        </div>
+        <div class="sheme">
+
+            <div class="right-img"><img src="img/sheme5.png" alt="image"></div>
+            <div class="num"><span>05</span></div>
+            <div class="other-text">Предоставим команду
+                художников оптимально под
+                Ваш заказ</div>
+        </div>
+        <div class="sheme">
+
+            <div class="right-img"><img src="img/sheme6.png" alt="image"></div>
+            <div class="num"><span>06</span></div>
+            <div class="other-text">Профессионально,
+                качественно, и в срок</div>
+        </div>
+    </div>
+        </div>
+    </div>
+</section>
+<section class="video-voices" id="video-voices">
+    <h3>Видеоотзывы</h3>
+    <div class="container">
+        <div class="row">
+    <div class="video-slider">
+        <div>
+            <div class="video-box">
+                <div data-video="https://www.youtube.com/embed/NVoWcMrGgGo" class="item">
+                    <div class="item-inner-box" style="background-image: url(img/face1.png);">
+                        <img src="img/videobutton.png" alt="image">
+                        <div class="item-inner">
+                            <div class="top-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Кристина</h5>
+                <h6>дизайнер</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+        <div>
+            <div class="video-box">
+                <div data-video="https://www.youtube.com/embed/NVoWcMrGgGo" class="item">
+                    <div class="item-inner-box" style="background-image: url(img/face2.png);">
+                        <img src="img/videobutton.png" alt="image">
+                        <div class="item-inner">
+                            <div class="top-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Денис</h5>
+                <h6>владелец антикафе</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+        <div>
+            <div class="video-box">
+                <div data-video="https://www.youtube.com/embed/-TLitoCmtX0" class="item">
+                    <div class="item-inner-box" style="background-image: url(img/face3.png);">
+                        <img src="img/videobutton.png" alt="image">
+                        <div class="item-inner">
+                            <div class="top-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Дмитрий</h5>
+                <h6>клиент PicArt</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                   </p>
+            </div>
+        </div>
+        <div>
+            <div class="video-box">
+                <div data-video="https://www.youtube.com/embed/mUYf2yu78Ts" class="item">
+                    <div class="item-inner-box" style="background-image: url(img/face1.png);">
+                        <img src="img/videobutton.png" alt="image">
+                        <div class="item-inner">
+                            <div class="top-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Кристина</h5>
+                <h6>дизайнер</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<section class="statistic"  id="statistic" style="background-image: url(img/stat-bg.png);">
+    <h3>за 10 лет нам доверили оформить</h3>
+    <div class="container">
+        <div class="row">
+            <div class="stat-box">
+                <div class="stat">
+                    <div class="circle-stat">
+                        1500
+                    </div>
+                    <div class="stat-in">
+                        м²
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="circle-stat">
+                        500
+                    </div>
+                    <div class="stat-in">
+                        заказов
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="circle-stat">
+                        40
+                    </div>
+                    <div class="stat-in">
+                        квартир
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="circle-stat">
+                        15
+                    </div>
+                    <div class="stat-in">
+                        домов
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="circle-stat">
+                        1
+                    </div>
+                    <div class="stat-in">
+                        храм
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="circle-stat">
+                        15
+                    </div>
+                    <div class="stat-in">
+                        заведений
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="about" id="about" >
+    <h3>Видеоотзывы</h3>
+    <div class="container">
+        <div class="row">
+            <div class="text-box-about">
+                <h6>Picart – художественная мастерская специалистов в различных сферах изобразительного
+                    искусства и дизайна</h6>
+                <p>Мы предлагаем широкий спектр услуг художественного оформления для
+                    Вашего интерьера: роспись стен, барельефы, роспись лепного декора,
+                    декор элементов мебели, художественные картины – все это подчеркнет
+                    индивидуальность и изысканность дизайна Вашего интерьера, поможет
+                    придать неповторимый колорит квартире или офису, сделать загородный
+                    дом более комфортным и теплым, и преобразит Ваш мир красотой искусства.
+                    А также для тех, кто хочет преподнести великолепный подарок в виде
+                    картины родному человеку, руководителю или коллегам по работе,
+                    запечатлеть на долгую память мгновения жизни. Наши профессиональные
+                    художники виртуозно владеют любой техникой и стилем, индивидуально
+                    работая с каждым клиентом, помогут воплотить желания и фантазии в
+                    реальность и преобразить Ваш мир красотой искусства!</p>
+
+            </div>
+            <div class="about-img"><img src="img/about-bg.png" alt=""></div>
+        </div>
+    </div>
+
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-box">
+                <div class="logo mb"><img src="img/logo2.png" alt="logo"></div>
+                <div class="tel-box mb">
+                    <p>свяжитесь с нами:</p>
+                    <a href="tel:+380930318753"><img src="img/phone.png" alt=""> +380930318753</a>
+                </div>
+                <div class="soc mb">
+                    <p>мы в соц. сетях:</p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="adress mb">
+                    <p>наш адрес:</p>
+                    <span>Киев, ул. Краковская, 59, офис 12</span>
+                </div>
+                <a href="#header" class="but-top mb"><img src="img/but-to-top.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="white-line">
+    <div class="container">
+        <div class="row">
+            <div class="l-box">
+                <a href="https://bastard.studio">Разработано Bastard Studio © 2018</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup-images sahara" >
+    <div class="container">
+        <div class="row">
+            <div class="dsr">
+                <div class="slider-big" >
+                    <div class="crest"><img src="img/crb.png" alt=""></div>
+                    <div class="big1">
+                        <div><div class="sli"><img src="img/sahara/sl1.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl2.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl3.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl4.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl5.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl6.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl7.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl8.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl9.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl10.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl11.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl12.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl13.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl14.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl15.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl16.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl17.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl18.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl19.jpg" alt="image"></div></div>
+
+                    </div>
+                </div>
+                <div class="slider-small" >
+                    <div class="small1">
+                        <div><div class="sli"><img src="img/sahara/sl1.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl2.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl3.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl4.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl5.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl6.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl7.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl8.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl9.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl10.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl11.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl12.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl13.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl14.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl15.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl16.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl17.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl18.jpg" alt="image"></div></div>
+                        <div><div class="sli"><img src="img/sahara/sl19.jpg" alt="image"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="thank-you thank-you-finish">
+    <div class="dark">
+        <div class="thank-you-window">
+            <div class="button-crest">
+                <img src="img/icon.png" alt="image">
+            </div>
+            <div class="inner-pop">
+                Благодарим за обращение!
+                Мы скоро с Вами свяжемся.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="thank-you thank-you-video">
+    <div class="dark">
+        <div class="thank-you-window">
+            <div class="button-crest">
+                <img src="img/icon.png" alt="image">
+            </div>
+            <div class="inner-pop-video">
+                <iframe
+                        src=""
+                        frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen>
+
+                </iframe>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="thank-you thank-you-form">
+        <div class="thank-you-window">
+            <div class="button-crest">
+                <img src="img/icon.png" alt="image">
+            </div>
+            <h6>Оформление заявки</h6>
+            <form action="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    <input type="text" name="name" placeholder="Ваше имя">
+                    <input type="text" name="phone" placeholder="+38 (___) ___-__-__">
+                    <input type="text" name="mail" placeholder="E-mail">
+                    <textarea name="text" placeholder="Текст Вашего сообщения"></textarea>
+                    <input type="submit" class="button button-black chef-b" value="Оставить заявку">
+
+            </form>
+        </div>
+</div>
+<script src="libs/jquery/jquery.js"></script>
+<!--<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+<!--<script src="libs/mmenu/mmenu.js"></script>-->
+<script src="libs/slick-master/slick/slick.js"></script>
+<!--<script src="libs/TweenMax.min.js"></script>-->
+<!--<script src="libs/jquery.nicescroll-3.7.6/jquery.nicescroll.min.js"></script>-->
+
+
+
+<!--<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>-->
+<!--<script src="libs/fullpage.js/vendors/scrolloverflow.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>-->
+<!--<script src="libs/fullpage.js/dist/jquery.fullpage.extensions.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>-->
+
+<script src="js/es6/common.js"></script>
+
+</body>
+
+</html>
+<!--<div class="rating">-->
+<!--<div class="stars-block">-->
+<!--<label>★<input  type="radio" name="stars" value="5"></label>-->
+<!--<label>★<input  type="radio" name="stars" value="4"></label>-->
+<!--<label>★<input  type="radio" name="stars" value="3"></label>-->
+<!--<label>★<input  type="radio" name="stars" value="2"></label>-->
+<!--<label>★<input  type="radio" name="stars" value="1"></label>-->
+<!--</div>-->
+<!--<a class="voices"><span>9</span> Отзывов</a>-->
+<!--</div>-->

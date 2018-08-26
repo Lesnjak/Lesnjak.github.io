@@ -1,0 +1,188 @@
+
+.our-works .our-block .circle-image-box button:hover {
+  background-color: transparent;
+}
+
+.our-works {
+  background-color: #f5f5f5;
+  text-align: center;
+  border-top: 4px solid transparent;
+  padding-bottom: 40px;
+  position: relative;
+
+  .row {
+    overflow: hidden;
+  }
+
+  .our-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .circle-image-box {
+      height: 100%;
+      width: 25%;
+      margin-bottom: 50px;
+      margin-top: 20px;
+      &:nth-child(1) .circle-image {
+
+
+      }
+      &:nth-child(2) .circle-image {
+
+        &:before {
+          content: '02';
+        }
+      }
+      &:nth-child(3) .circle-image {
+
+        &:before {
+          content: '03';
+        }
+      }
+      &:nth-child(4) .circle-image {
+
+        &:before {
+          content: '04';
+        }
+      }
+      &:nth-child(5) .circle-image {
+
+        &:before {
+          content: '05';
+        }
+      }
+      &:nth-child(6) .circle-image {
+
+        &:before {
+          content: '06';
+        }
+      }
+      &:nth-child(7) .circle-image {
+
+        &:before {
+          content: '07';
+        }
+      }
+      &:nth-child(8) .circle-image {
+
+        &:before {
+          content: '08';
+        }
+      }
+
+      &:before {
+        position: absolute;
+        content: '➞';
+
+        right: 0;
+        top: 75px;
+        color: black;
+        font-size: 24px;
+
+      }
+      &:nth-child(4):before {
+        position: absolute;
+        content: '';
+      }
+      &:nth-child(8):before {
+        position: absolute;
+        content: '';
+      }
+      .circle-image {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        border: 3px solid $red;
+        background-size: 60%;
+        margin-bottom: 40px;
+        background-image:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 60%;
+        }
+        &:before {
+          position: absolute;
+          content: '01';
+          width: 50px;
+          height: 50px;
+          color: #FFFFFF;
+          font-size: 23px;
+          font-family: "Gilroy Bold", sans-serif;
+          padding-top: 9px;
+          background-color: $red;
+          border-radius: 50%;
+          bottom: -25px;
+          right: 0;
+          left: 0;
+          margin: auto;
+        }
+
+      }
+      button {
+        width: 190px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 10px;
+
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .our-works .our-block .circle-image-box .circle-image {
+    width: 150px;
+    height: 150px;
+
+  }
+  .our-works .our-block .circle-image-box:before {
+    position: absolute;
+    content: '➞';
+    right: -10px;
+    top: 57px;
+    color: #000;
+    font-size: 24px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .our-works {
+    border-top: 4px solid $red;
+  }
+  .our-works .our-block .circle-image-box {
+    width: 30%;
+
+  }
+  .circle-image-box label {
+    margin-top: 20px;
+    display: block;
+    color: #000;
+    font-size: 16px;
+  }
+  .our-works .our-block .circle-image-box .circle-image {
+    width: 150px;
+    height: 150px;
+
+  }
+  .our-works .our-block .circle-image-box:before {
+    display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .our-works {
+    display: none;
+  }
+  .our-works .our-block .circle-image-box {
+    width: 50%;
+
+  }
+
+}

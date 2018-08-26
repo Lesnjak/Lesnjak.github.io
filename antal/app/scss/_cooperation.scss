@@ -1,0 +1,65 @@
+.coop-our{
+p{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  max-width: 512px;
+  padding:10px 0 0;
+}
+}
+.coop-double{
+  padding: 0;
+  display: flex;
+  .inner-inner{
+  background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40vw;
+    padding: 15px;
+    .inner{
+      max-width:505px ;
+      text-align: center;
+      h4{
+        margin-bottom: 25px;
+        line-height: 50px;
+      }
+      p{
+        margin-bottom: 30px;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+    &:first-child{
+      border-right:3px solid #fff;
+    }
+  }
+
+}
+@media (max-width: 1200px) {
+
+    .coop-double{
+      flex-direction: column;
+      .inner-inner{
+        width: 100%;
+        padding: 40px 15px;
+        height: auto;
+        min-height: 60vw;
+        .inner{
+
+
+        }
+        &:first-child{
+          border-right:none;
+          border-bottom:3px solid #fff;
+        }
+
+      }
+
+    }
+
+}

@@ -1,0 +1,107 @@
+body{
+  color: #010101;
+  font-size:18px;
+  font-family: Gilroy;
+  font-weight: 400;
+
+}
+h1{
+  text-shadow: -3px -2px 22px rgba(21, 23, 23, 0.11);
+  color: #ffffff;
+  font-family: Gilroy;
+  font-size: 71px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h2{
+   color: #000;
+   font-family: Gilroy-Bold;
+   font-size: 30px;
+   font-weight: 100;
+  padding: 25px 0;
+  text-align: center;
+  a{
+    color:#000 ;
+    transition: 0.3s;
+    span{
+      font-family: Gilroy;
+    }
+    &:hover{
+      color: #4a76a8;
+    }
+  }
+}
+h3{
+  color: #fff;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 146px;
+
+  text-transform: uppercase;
+  opacity: 0.1;
+  margin: 0;
+  padding: 0;
+
+}
+h4{
+  color: #ffffff;
+  font-family: Gilroy;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+
+
+}
+
+.button{
+
+  box-shadow: 0 0 15px rgba(74, 118, 168, 0.15);
+  border-radius: 27px;
+  background-color: #4a76a8;
+  padding: 0 43px;
+  outline: none;
+  transition: 0.3s;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid #4a76a8;
+
+  &:hover{
+    background-color: #fff;
+    color: #4a76a8;
+
+
+  }
+}
+.button-red{
+
+  background-color: #fff;
+  border: 2px solid #4a76a8;
+  color: #4a76a8;
+
+
+  &:hover{
+    background-color: #4a76a8;
+    border: 2px solid #4a76a8;
+    color:#fff;
+  }
+}
+@media (max-width: 993px ) {
+
+}
+
+@media (max-width: 480px ) {
+h4{
+  font-size: 30px;
+}
+}
+@media (max-width: 690px ) {
+  .button{
+    padding: 0 22px;
+
+    line-height: 40px;
+  }
+}

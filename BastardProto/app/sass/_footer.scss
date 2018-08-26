@@ -1,0 +1,246 @@
+
+.footer {
+  border-top: 4px solid black;
+  padding: 40px 0;
+  position: relative;
+
+  background-image: url('../img/background-footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: inherit;
+    margin: 0 0 10px 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  }
+  .footer-box-left {
+    float: left;
+    width: 60%;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 70%;
+      background-color: white;
+      right: 3px;
+      top: 45px;
+
+    }
+
+    .scroll-box {
+      height: 115px;
+
+      overflow-y: scroll;
+      p {
+        color: #FFFFFF;
+        font-size: 14px;
+        margin: 0;
+        padding-right: 20px;
+        line-height: 22px;
+        height: 20px;
+        position:relative;
+      }
+
+    }
+
+    //    .scroll-box::-webkit-scrollbar-thumb {
+    //      background: $red;
+    //
+    //
+    //
+    //    }
+    //    .scroll-box::-webkit-scrollbar,
+    //    .scroll-box::-webkit-scrollbar-thumb {
+    //      position: relative;
+    //      width: 7px;
+    //      border-radius: 10px;
+    //&:before{
+    //  position: absolute;
+    //  content: '';
+    //  width: 10px;
+    //  height: 10px;
+    //  background-color: #fff;
+    //  left: 10px;
+    //}
+    //    }
+    p {
+      color: #FFFFFF;
+      font-size: 18px;
+    }
+    p {
+      margin-top: 0;
+    }
+
+  }
+  .footer-box-right {
+    padding-left: 120px;
+    width: 20%;
+    float: left;
+    li {
+      margin-bottom: 15px;
+    }
+    h3 {
+      color: white;
+      cursor: pointer;
+      transition: color .3s;
+      &:hover {
+        color: $red;
+      }
+    }
+
+  }
+  .contacts {
+    width: 225px;
+    float: right;
+    h4 {
+      color: #FFFFFF;
+    }
+    .phones {
+      margin: 20px 0;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 5px 20px;
+
+      p {
+        color: #FFFFFF;
+      }
+    }
+
+    span {
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #fff;
+      text-align: center;
+      vertical-align: middle;
+      float: left;
+      margin-left: 13px;
+      position: relative;
+      transition: all .2s;
+
+      img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+      }
+      .hid {
+        opacity: 0;
+      }
+      &:hover {
+        background-color: $red;
+        .hid {
+          opacity: 1;
+
+        }
+        .sho {
+          opacity: 0;
+
+        }
+      }
+
+    }
+  }
+  .brand {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 20px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+}
+@media (max-width: 1400px) {
+
+  .footer .footer-box-right {
+    padding-left:30px;
+
+
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .footer .footer-box-left {
+    padding-left: 0;
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+
+  }
+  .footer .footer-box-right {
+    padding-left: 0;
+    width: 50%;
+    float: left;
+  }
+  .footer .contacts {
+    text-align: right;
+
+    float: right;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    border-top: 4px solid $red;
+    padding: 60px 60px 60px 60px;
+  }
+  .footer .contacts .phones a {
+    display: block;
+    margin: 15px auto;
+  }
+  .footer .brand {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 20px 0 60px 0;
+  }
+  .footer .footer-box-left {
+    text-align: center;
+
+  }
+
+  .footer .footer-box-right {
+    text-align: center;
+    padding-left: 0;
+    width: 100%;
+    margin: auto;
+    float: left;
+  }
+  .footer .contacts {
+
+    margin: auto;
+    text-align: center;
+    float: none;
+  }
+  .footer .footer-box-left:after {
+
+    height: 60%;
+    top: 70px;
+  }
+  .footer .brand {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+
+  }
+  .footer .footer-box-left .scroll-box {
+    height: 138px;
+    overflow-y: scroll;
+  }
+}
