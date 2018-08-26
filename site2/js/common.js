@@ -239,7 +239,7 @@ $('document').ready(function () {
             console.log(msg);
             $.ajax({
                 type: 'POST',
-                url: 'contact.php',
+                url: './contact.php',
                 data: msg,
                 success: function(data) {
                     $('#results').html(data);

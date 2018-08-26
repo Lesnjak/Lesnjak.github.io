@@ -7,8 +7,8 @@ $method = $_SERVER['REQUEST_METHOD'];
 $c = true;
 if ( $method === 'POST' ) {
     $project_name = "sitename";
-    $admin_email  = "mail@mail.ua";
-    $form_subject = "mail@mail.ua";
+    $admin_email  = "vnachalesobaka@gmail.com";
+    $form_subject = "vnachalesobaka@gmail.com";
     foreach ( $_POST as $key => $value ) {
         if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" ) {
             $message .= "
