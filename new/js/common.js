@@ -243,7 +243,7 @@ $(".left label:nth-child(2)").click(function () {
 });
 var someObj = {a:1,b:2};
 var xhr = new XMLHttpRequest();
-xhr.open('POST', '../mail.php');
+xhr.open('POST', '/mail.php');
 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 xhr.send('param=' + JSON.stringify(someObj));
 xhr.onreadystatechange = function()
