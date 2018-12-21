@@ -3,11 +3,488 @@
   <component name="ChangeListManager">
     <list default="true" id="64ff8904-da9a-4404-a7ce-9d9481d7e9b8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/b9527884.beget.tech/public_html/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/b9527884.beget.tech/public_html/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/b9527884.beget.tech/public_html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/b9527884.beget.tech/public_html/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/monserat/Montserrat-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/open-sans/open-sans-v15-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/open-sans/open-sans-v15-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/open-sans/open-sans-v15-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/open-sans/open-sans-v15-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/open-sans/open-sans-v15-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/roboto/roboto-v18-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/roboto/roboto-v18-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/roboto/roboto-v18-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/roboto/roboto-v18-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/fonts/roboto/roboto-v18-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/Check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/Point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/img0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/js/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/javascripts/bootstrap/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/_bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/eyeglass-exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/bootstrap-sass/sache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/dist/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/camelCase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/toType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/ROADMAP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/dist/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/css/docs.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/bird_blue_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/feature-drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/feature-modern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/feature-module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/feature-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/feature-responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/feature-zombie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/owl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/img/twitter_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/vendors/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/vendors/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/vendors/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/vendors/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/animate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/autoheight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/autoplay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/autowidth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/demos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/lazyLoad.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/merge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/mousewheel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/responsive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/rtl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/stagepadding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/urlhashnav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/demos/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/api-classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/api-events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/api-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/dev-buildin-plugins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/dev-external.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/dev-plugin-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/dev-styles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/started-faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/started-installation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/started-welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/support-changelog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/support-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/docs/support-contributing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/bird_blue_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/feature-drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/feature-modern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/feature-module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/feature-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/feature-responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/feature-zombie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/owl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/img/twitter_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/scss/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/scss/custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/scss/demos.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/scss/docs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/scss/docs.theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/scss/highlight.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/vendors/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/vendors/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/vendors/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/vendors/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/data/classes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/data/events.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/data/features.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/data/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/helpers/modulo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/helpers/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/layouts/demos.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/layouts/docs.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/layouts/home.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/animate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/autoheight.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/autoplay.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/autowidth.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/basic.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/center.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/demos.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/events.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/lazyLoad.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/merge.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/mousewheel.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/responsive.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/rtl.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/stagepadding.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/test.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/urlhashnav.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/demos/video.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/api-classes.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/api-events.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/api-options.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/dev-external.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/dev-plugin-api.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/dev-styles.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/started-faq.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/started-installation.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/started-welcome.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/support-changelog.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/support-contact.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/docs/support-contributing.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/pages/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/footer.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/head.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/header.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/home-carousel.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/home-features.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/home-hero.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/home-teaser-text.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/javascripts.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/releated-docs.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/sidenav-docs.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/title.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/docs_src/templates/partials/vendors.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/img/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.autoheight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.autoplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.autorefresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.hash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.lazyload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.support.modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/js/owl.video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_animate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_autoheight.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_lazyload.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_theme.default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_theme.green.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/_video.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/owl.carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/owl.theme.default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/src/scss/owl.theme.green.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/test/unit/autoplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/owl.carousel/test/unit/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/reset.scss/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/reset.scss/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/reset.scss/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b9527884.beget.tech/public_html/libs/reset.scss/reset.scss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,15 +499,8 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/b9527884.beget.tech/public_html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="275" column="46" selection-end-line="395" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/resume/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -84,7 +554,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,28 +561,11 @@
               <item name="Lesnjak.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lesnjak.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Lesnjak.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lesnjak.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="b9527884.beget.tech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lesnjak.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lesnjak.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="b9527884.beget.tech" type="462c0819:PsiDirectoryNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lesnjak.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lesnjak.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="b9527884.beget.tech" type="462c0819:PsiDirectoryNode" />
-              <item name="public_html" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,26 +614,27 @@
       <workItem from="1542909313001" duration="167000" />
       <workItem from="1542909645680" duration="603000" />
       <workItem from="1542986740380" duration="7000" />
+      <workItem from="1545403676475" duration="287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14547000" />
+    <option name="totallyTimeSpent" value="14834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.13086233" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14977308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15204236" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294893" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32838285" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -199,6 +652,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/b9527884.beget.tech/public_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6325">
+          <caret line="275" column="46" selection-end-line="395" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/b9527884.beget.tech/public_html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6325">
@@ -281,6 +744,16 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
